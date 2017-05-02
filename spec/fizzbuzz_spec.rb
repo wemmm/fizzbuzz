@@ -11,5 +11,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
   it 'returns "number" when passed not a multiple of either 3 or 5' do
+    expect(fizzbuzz(2)).to eq 2
+  end
+  it 'returns "not a number!" when passed a value that is not an integer' do
+    expect(fizzbuzz("hello")).to eq "not a number!"
   end
 end

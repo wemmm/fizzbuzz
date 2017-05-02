@@ -5,6 +5,8 @@ def fizzbuzz(numbers)
     return 'fizz'
   elsif numbers % 5 == 0
     return 'buzz'
+  elsif numbers.is_a? String
+    return "not a number!"
   else
     return numbers
 
