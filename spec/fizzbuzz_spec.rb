@@ -10,4 +10,6 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when passed a multiple of both 3 and 5' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
+  it 'returns "number" when passed not a multiple of either 3 or 5' do
+  end
 end
