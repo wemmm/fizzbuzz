@@ -12,3 +12,9 @@ This is one of the week 4 exercises for the Makers Academy precourse!
 irb
 require './lib/fizzbuzz'
 fizzbuzz (number)
+```
+
+### Testing ###
+```
+rspec fizzbuzz_spec.rb
+```
